@@ -1,6 +1,6 @@
 import { Router } from 'express';
 import ProductsController from '../controllers/ProductsController';
-import Product from '../typeorm/entities/product';
+import Product from '../typeorm/entities/Product';
 import { celebrate, Joi, Segments } from 'celebrate';
 //import { randomUUID } from "crypto";
 
